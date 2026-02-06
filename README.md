@@ -157,7 +157,7 @@ These sample documents can be used by each tenant user to upload from the fronte
 This demonstrates the multi-tenant data isolation feature, ensuring that each tenant can only access their own documents, even when using similar queries across tenants.
 
 ## Clean up
-To avoid unexpected charges, we recommend deleting resources when they are no longer needed. Because the resources are created with the AWS CDK, run the cdk destroy command to delete them. This operation will also delete the documents uploaded to Amazon S3.
+To avoid unexpected charges, we recommend deleting resources when they are no longer needed. Because the resources are created with the AWS CDK, run the cdk destroy command to delete them. Please note this operation will also delete the documents uploaded to Amazon S3.
 
 ## Disclaimer
 
